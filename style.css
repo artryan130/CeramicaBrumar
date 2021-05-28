@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12pt;
+    color: blue;
+}
+
+p{
+    color: red;
+}
+
+.verde{
+    color: green;
+    font-size: 20pt;
+}
+
+#diferente{
+    color: purple;
+}
+
+body{
+    background-image: linear-gradient(90deg, white, yellow);
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button:focus{
+    background-color: yellow;
+    color: red;
+}
+
+input:checked{
+    width: 15px;
+    height: 15px;
+}
+
+table{
+    border: 1px solid black;
+    border-radius: 10px;
+    border-spacing: 0px;
+}
+
+td, th{
+    border: 1px solid #b2b2b2;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+th{
+    background-color: burlywood;
+}
+
+fieldset{
+    border-width: 5px;
+}
